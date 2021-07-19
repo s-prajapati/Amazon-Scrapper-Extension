@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 500px;
+    min-height: 100px;
+    background-color: #faf7f2;
+}
+
+input[type=button], button {
+    width: 200px;
+    margin: 10px;
+    padding: 10px, 0;
+    border-radius: 100px;
+    background-color: #ece6df;
+    font-size: 1.1rem;
+
+}
+
+input[type=text], input[type=password] {
+    border: 2px #999999 solid;
+    border-radius: 5px;
+}
+
+.errors {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 0.9rem;
+    color: #c55151;
+    margin: 10px;
+}
+
+/* Home  */
+#home-wrapper {
+    font-size: 1rem;
+}
+
+/* Login */
+#login-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#loginHeader {
+    font: 1.5rem bold;
+}
+
+#login-form-wrapper {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login-form-wrapper label{
+    height: auto;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+}
+
+#login-form-wrapper input[type=text], #login-form-wrapper input[type=password]{
+    margin: 0 0 10px;
+    width: 230px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.loginSignupSwitch {
+    display: flex;
+    justify-content: center;
+    font-size: 0.9rem;
+}
+
+.loginSignupSwitch a {
+    text-decoration: none;
+    color: #707070;
+}
+
+/* Signup */
+#signup-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#signupHeader {
+    font: 1.5rem bold;
+
+}
+
+#signup-form-wrapper {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#signup-form-wrapper label{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 0.9rem;
+
+}
+
+#signup-form-wrapper input[type=text], #signup-form-wrapper input[type=password]{
+    margin: 0 0 10px;
+    width: 230px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+/* Home */
+#home-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonWrapper {
+    width: 80%;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#homeItemList {
+    list-style: none;
+    padding: 10px 0 10px;
+}
+
+.itemWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    
+    padding: 0 0 5px;
+    margin: 15px 20px 0;
+    
+    border-bottom: #d6d1ca solid 2px;
+}
+
+.itemName {
+    max-width: 80%;
+}
+
+.itemName a {
+    text-decoration: none;
+    color: #4d4d4d;
+    /* color: #090909; */
+}
+
+.itemPrice {
+    color: #4d4d4d;
+}

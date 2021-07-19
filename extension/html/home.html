@@ -1,0 +1,19 @@
+<div id="home-wrapper" ng-controller='HomeController'>
+    <div class="buttonWrapper">
+        <button id="btnTrackCurrent" ng-click="trackItem()">Track Current Item</button>
+        <button id="btnShowTracked" ng-click="showTracked()">Show Tracked Items</button>
+    </div>
+
+    <div id="homeResult">{{message}}</div>
+
+    <ul id="homeItemList">
+        <li class="item" ng-repeat="item in itemList">
+            <div class="itemWrapper">
+                <div class="itemName"><a href="{{item.url}}">{{item.name}}</a></div>
+                <div class="itemPrice">{{item.price}}</div>
+            </div>
+        </li>
+    </ul>
+
+    <button class="logout" ng-click="logout()"> Logout </button>
+</div>
