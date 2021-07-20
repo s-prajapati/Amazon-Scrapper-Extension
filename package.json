@@ -8,7 +8,7 @@
     "start_dev": "nodemon server/server.js",
     "start": "nodejs server/server.js"
   },
-  "author": "Vikram Damle",
+  "author": "Sahil Prajapati",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
